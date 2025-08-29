@@ -1,0 +1,12 @@
+# Python virtual environment
+venv/
+*.pyc
+__pycache__/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Large data files - uncomment if your data is very large
+# data/*.csv
