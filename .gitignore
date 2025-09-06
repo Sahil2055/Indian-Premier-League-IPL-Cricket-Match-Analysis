@@ -1,12 +1,7 @@
-# Python virtual environment
-venv/
-*.pyc
+# Python
 __pycache__/
+*.pyc
+.env
 
-# IDE and OS files
-.vscode/
-.idea/
-.DS_Store
-
-# Large data files - uncomment if your data is very large
-# data/*.csv
+# Jupyter Notebook
+.ipynb_checkpoints
