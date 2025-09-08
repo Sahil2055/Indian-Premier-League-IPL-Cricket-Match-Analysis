@@ -1,7 +1,9 @@
-# Python
-__pycache__/
-*.pyc
+# Python virtual environment
+venv/
 .env
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
