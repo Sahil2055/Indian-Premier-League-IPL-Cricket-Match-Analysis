@@ -1,6 +1,6 @@
 # Indian Premier League (IPL) Cricket Match Analysis 🏏
 
-This project performs a comprehensive data analysis of the Indian Premier League (IPL) from its inaugural season in 2008 to 2024. By dissecting match-level and ball-by-ball data, this analysis uncovers key trends, player statistics, and strategic insights that define success in the world's premier T20 cricket league.
+**This project performs a comprehensive data analysis of the Indian Premier League (IPL) from its inaugural season in 2008 to 2024. By dissecting match-level and ball-by-ball data, this analysis uncovers key trends, player statistics, and strategic insights that define success in the world's premier T20 cricket league.**
 
 ---
 
@@ -27,33 +27,30 @@ This involves analyzing the impact of the toss, identifying dominant teams, and 
 
 ## 🛠️ Tech Stack
 
-* **Python:** The core programming language for the analysis.
-* **Pandas:** Used for data manipulation, cleaning, and exploration.
-* **Matplotlib & Seaborn:** Used for creating high-quality, insightful visualizations.
-* **Jupyter Notebook:** The interactive environment for writing and presenting the analysis.
+- **Python:** The core programming language for the analysis.
+- **Pandas:** Used for data manipulation, cleaning, and exploration.
+- **Matplotlib & Seaborn:** Used for creating high-quality, insightful visualizations.
+- **Jupyter Notebook:** The interactive environment for writing and presenting the analysis.
 
 ---
 
 ## 📂 Project Structure
 
-The project repository is organized as follows:
+The project repository is organized in a clean and professional manner as follows:
 
-IPL_Analysis_Project/
-|
-|-- 📂 data/                 # Contains the raw datasets
+**`📂Indian-Premier-League-IPL-Cricket-Match-Analysis/`**
+-    `📂 sample_datasets/`                 # Contains the raw datasets
 |   |-- matches.csv
 |   |-- deliveries.csv
-|
-|-- 📂 data_cleaned/         # Contains the cleaned datasets
+-    `📂 cleaned_datasets/`         # Contains the cleaned datasets
 |   |-- matches_cleaned.csv
 |   |-- deliveries_cleaned.csv
-|
-|-- 📂 visualizations/       # Contains all the saved charts and graphs
+-    `📂notebooks/`
+📄 IPL_Analysis.ipynb    # The complete Jupyter Notebook with all the code
+-    `📂 visualizations/`       # Contains all the saved charts and graphs
 |   |-- (10+ .png files)
-|
-|-- 📄 IPL_Analysis.ipynb    # The complete Jupyter Notebook with all the code
-|-- 📄 .gitignore             # Specifies files for Git to ignore
-|-- 📄 README.md             # This project overview file
+-- 📄 .gitignore             # Specifies files for Git to ignore
+-- 📄 README.md             # This project overview file
 
 
 ---
