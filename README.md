@@ -39,19 +39,22 @@ This involves analyzing the impact of the toss, identifying dominant teams, and 
 The project repository is organized in a clean and professional manner as follows:
 
 **`📂Indian-Premier-League-IPL-Cricket-Match-Analysis/`**
--    `📂 sample_datasets/`                 # Contains the raw datasets
-|   |-- matches.csv
-|   |-- deliveries.csv
--    `📂 cleaned_datasets/`         # Contains the cleaned datasets
-|   |-- matches_cleaned.csv
-|   |-- deliveries_cleaned.csv
--    `📂notebooks/`
-📄 IPL_Analysis.ipynb    # The complete Jupyter Notebook with all the code
--    `📂 visualizations/`       # Contains all the saved charts and graphs
-|   |-- (10+ .png files)
--- 📄 .gitignore             # Specifies files for Git to ignore
--- 📄 README.md             # This project overview file
-
+-   `📂 sample_datasets/` : Contains the raw datasets
+    -   `matches.csv` : This file contains match-level information.
+    -   `deliveries.csv` : This file contains ball-by-ball data for every match.
+-    `📂 cleaned_datasets/` : Contains the cleaned datasets
+    -   `matches_cleaned.csv` : This file contains cleaned matches dataset.
+    -   `deliveries_cleaned.csv` : This file contains cleaned deliveries dataset.
+    -   `merged_ipl_datasets.csv` : This file contains the combined data of both the cleaned datasets.
+-   `📂notebooks/` : Contains the Jupyter Notebook used for Analysis
+    -   `📄 IPL_Analysis_Notebook.ipynb` : The complete Jupyter Notebook with all the code (This can also be treated as Final Report of the Project.)
+-   `📂presentations/`
+    -   `IPL_Analysis_Presentation.pdf`: The presentation file of the Project.
+-   `📂 visualizations/` : Contains all the saved charts and graphs
+    -   `(All "____.png" files)` : The charts and graphs created during Data Visualization are saved here.
+-   `📄 .gitignore` : The technical file that tells Git which files to ignore and helps GitHub manage the repository correctly.
+-   `📄 README.md` : The file, which provides a detailed overview of the project.
+-   `📄 requirements.txt`: The file containing all the Python libraries needed for this project.
 
 ---
 
@@ -61,23 +64,24 @@ To replicate this analysis on your local machine, follow these steps:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[Your-Username]/IPL-Analysis-Project.git
-    cd IPL-Analysis-Project
+    git clone https://github.com/Sahil2055/Indian-Premier-League-IPL-Cricket-Match-Analysis.git
+    cd Indian-Premier-League-IPL-Cricket-Match-Analysis
     ```
 2.  **Create a Virtual Environment (Recommended):**
     ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    python -m venv .venv
+    .venv\Scripts\activate  # On Windows
+                            # On Linux/macOS, use `source .venv/bin/activate`
     ```
 3.  **Install the Required Libraries:**
     ```bash
-    pip install pandas matplotlib seaborn notebook
+    pip install -r requirements.txt
     ```
 4.  **Launch Jupyter Notebook:**
     ```bash
     jupyter notebook
     ```
-5.  **Open the Notebook:** In the Jupyter interface that opens in your browser, navigate to and open `IPL_Analysis.ipynb`. You can then run the cells to see the analysis execute from start to finish.
+5.  **Open the Notebook:** In the Jupyter interface that opens in your browser, navigate to and open `IPL_Analysis_Notebook.ipynb`. You can then run the cells to see the analysis execute from start to finish.
 
 ---
 
@@ -113,20 +117,16 @@ The heatmap provides a clear visual of team consistency, showing how dominant te
 
 Winning in the IPL is not a matter of luck but a result of a clear, data-backed formula:
 
-* **Strategic Chasing:** Teams that win the toss and choose to field have a strategic edge.
-* **Core Champions:** Success is built around a consistent core of high-impact, elite players.
-* **Specialist Supremacy:** The most valuable players are specialists who excel in their specific roles (batting or bowling).
+- **Strategic Chasing:** Teams that win the toss and choose to field have a strategic edge.
+- **Core Champions:** Success is built around a consistent core of high-impact, elite players.
+- **Specialist Supremacy:** The most valuable players are specialists who excel in their specific roles (batting or bowling).
 
 This analysis demonstrates that a deep understanding of data can reveal the patterns that define victory in high-stakes T20 cricket.
-
----
-*(Remember to replace `[Your-Username]` with your actual GitHub username in the "How to Run This Pr
-
-
 ---
 
 ## 👨‍💻 Author
 
 -   **Name:** Sahil Kesharwani
+-   **E-mail:** sahil.kesharwani.927@gmail.com
 
 ---
