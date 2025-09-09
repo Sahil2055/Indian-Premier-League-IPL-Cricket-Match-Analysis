@@ -122,6 +122,7 @@ Winning in the IPL is not a matter of luck but a result of a clear, data-backed 
 - **Specialist Supremacy:** The most valuable players are specialists who excel in their specific roles (batting or bowling).
 
 This analysis demonstrates that a deep understanding of data can reveal the patterns that define victory in high-stakes T20 cricket.
+
 ---
 
 ## 👨‍💻 Author
